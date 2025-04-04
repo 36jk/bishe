@@ -1,0 +1,8 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "indi\\out\\build\\x64-Debug",
+      "indi\\out\\install\\x64-Debug"
+    ]
+  }
+}
