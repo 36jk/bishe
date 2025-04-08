@@ -62,3 +62,8 @@ install(
     DESTINATION ${INDI_DATA_DIR}
 )
 
+########### client ##############
+add_executable(client telescope_simulator_client.cpp)
+
+target_link_libraries(client AlignmentDriver indidriver)
+

@@ -1,16 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\bishe\\",
+  "WorkspaceRootPath": "D:\\bishe\\bishe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\FindPackageHandleStandardArgs.cmake||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\bishe\\bishe\\telescope_simulator_client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:telescope_simulator_client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\bishe\\indi\\libs\\indiclientqt\\baseclientqt.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:indi\\libs\\indiclientqt\\baseclientqt.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\bishe\\bishe\\igdb.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:igdb.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|CMake \u6982\u8FF0\u9875||{B1CAA5B0-FEB1-4350-8AB9-F895876842F2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\bishe\\bishe\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\bishe\\bishe\\telescope_simulator_client.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:telescope_simulator_client.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\bishe\\bishe\\Telescope.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Telescope.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\bishe\\bishe\\indi\\examples\\tutorial_seven\\telescope_simulator_client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:indi\\examples\\tutorial_seven\\telescope_simulator_client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,41 +34,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FindPackageHandleStandardArgs.cmake",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\FindPackageHandleStandardArgs.cmake",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\FindPackageHandleStandardArgs.cmake",
-              "ViewState": "AgIAANwAAAAAAAAAAAAewOUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-02T01:27:20.94Z",
+              "DocumentIndex": 1,
+              "Title": "igdb.sh",
+              "DocumentMoniker": "D:\\bishe\\bishe\\igdb.sh",
+              "RelativeDocumentMoniker": "igdb.sh",
+              "ToolTip": "D:\\bishe\\bishe\\igdb.sh",
+              "RelativeToolTip": "igdb.sh",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
+              "WhenOpened": "2025-04-08T05:20:42.016Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "baseclientqt.cpp",
-              "DocumentMoniker": "D:\\bishe\\indi\\libs\\indiclientqt\\baseclientqt.cpp",
-              "RelativeDocumentMoniker": "indi\\libs\\indiclientqt\\baseclientqt.cpp",
-              "ToolTip": "D:\\bishe\\indi\\libs\\indiclientqt\\baseclientqt.cpp",
-              "RelativeToolTip": "indi\\libs\\indiclientqt\\baseclientqt.cpp",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "telescope_simulator_client.h",
+              "DocumentMoniker": "D:\\bishe\\bishe\\telescope_simulator_client.h",
+              "RelativeDocumentMoniker": "telescope_simulator_client.h",
+              "ToolTip": "D:\\bishe\\bishe\\telescope_simulator_client.h",
+              "RelativeToolTip": "telescope_simulator_client.h",
+              "ViewState": "AgIAACsAAAAAAAAAAAApwEEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-08T03:55:53.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "telescope_simulator_client.cpp",
+              "DocumentMoniker": "D:\\bishe\\bishe\\telescope_simulator_client.cpp",
+              "RelativeDocumentMoniker": "telescope_simulator_client.cpp",
+              "ToolTip": "D:\\bishe\\bishe\\telescope_simulator_client.cpp",
+              "RelativeToolTip": "telescope_simulator_client.cpp",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAAADEBAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-02T01:26:20.347Z",
+              "WhenOpened": "2025-04-08T03:55:47.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CMake \u6982\u8FF0\u9875",
-              "DocumentMoniker": "CMake \u6982\u8FF0\u9875",
-              "ToolTip": "CMake \u6982\u8FF0\u9875",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-02T01:22:18.184Z",
+              "Title": "CMakeLists.txt",
+              "DocumentMoniker": "D:\\bishe\\bishe\\CMakeLists.txt",
+              "RelativeDocumentMoniker": "CMakeLists.txt",
+              "ToolTip": "D:\\bishe\\bishe\\CMakeLists.txt",
+              "RelativeToolTip": "CMakeLists.txt",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-08T03:30:06.078Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Telescope.h",
+              "DocumentMoniker": "D:\\bishe\\bishe\\Telescope.h",
+              "RelativeDocumentMoniker": "Telescope.h",
+              "ToolTip": "D:\\bishe\\bishe\\Telescope.h",
+              "RelativeToolTip": "Telescope.h",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-08T03:29:03.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "telescope_simulator_client.cpp",
+              "DocumentMoniker": "D:\\bishe\\bishe\\indi\\examples\\tutorial_seven\\telescope_simulator_client.cpp",
+              "RelativeDocumentMoniker": "indi\\examples\\tutorial_seven\\telescope_simulator_client.cpp",
+              "ToolTip": "D:\\bishe\\bishe\\indi\\examples\\tutorial_seven\\telescope_simulator_client.cpp",
+              "RelativeToolTip": "indi\\examples\\tutorial_seven\\telescope_simulator_client.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-08T03:16:56.831Z"
             }
           ]
         }
