@@ -1,0 +1,7 @@
+/home/user/bishe/CMakeFiles/Telescope.dir
+/home/user/bishe/CMakeFiles/edit_cache.dir
+/home/user/bishe/CMakeFiles/rebuild_cache.dir
+/home/user/bishe/CMakeFiles/list_install_components.dir
+/home/user/bishe/CMakeFiles/install.dir
+/home/user/bishe/CMakeFiles/install/local.dir
+/home/user/bishe/CMakeFiles/install/strip.dir

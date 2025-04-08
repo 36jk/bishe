@@ -1,0 +1,2 @@
+/usr/bin/Telescope
+/usr/share/indi/Telescope.xml

@@ -1,0 +1,1 @@
+/usr/bin/c++  -D_FORTIFY_SOURCE=2 -Wa,--noexecstack  -Wall -Wextra -Wno-format-truncation -g -g   -Wl,-z,nodump -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/Telescope.dir/Telescope.cpp.o -o Telescope  -lindidriver -lindiAlignmentDriver -lnova -lgsl -lgslcblas 
