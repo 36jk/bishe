@@ -1,0 +1,2 @@
+/usr/local/bin/indi_mycustomdriver
+/usr/share/indi/indi_mycustomdriver.xml

@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+cc33a705064c7d69e6fde8da2244ad5a CMakeFiles/TelescopeUI_autogen

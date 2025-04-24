@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/user/telescope_bishe/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/user/telescope_bishe/build -I/home/user/telescope_bishe -I/usr/include/libindi  -D_FORTIFY_SOURCE=2 -Wa,--noexecstack  -Wall -Wextra -Wno-format-truncation -g -g -fPIE -std=gnu++17 -o CMakeFiles/indi_mycustomdriver.dir/indi_mycustomdriver.cpp.o -c /home/user/telescope_bishe/indi_mycustomdriver.cpp",
+  "file": "/home/user/telescope_bishe/indi_mycustomdriver.cpp"
+},
+{
+  "directory": "/home/user/telescope_bishe/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/user/telescope_bishe/build/TelescopeUI_autogen/include -I/home/user/telescope_bishe/build -I/home/user/telescope_bishe -I/usr/include/libindi -isystem /usr/include/aarch64-linux-gnu/qt5 -isystem /usr/include/aarch64-linux-gnu/qt5/QtWidgets -isystem /usr/include/aarch64-linux-gnu/qt5/QtGui -isystem /usr/include/aarch64-linux-gnu/qt5/QtCore -isystem /usr/lib/aarch64-linux-gnu/qt5/mkspecs/linux-g++  -D_FORTIFY_SOURCE=2 -Wa,--noexecstack  -Wall -Wextra -Wno-format-truncation -g -g -fPIE -fPIC -std=gnu++11 -o CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.o -c /home/user/telescope_bishe/build/TelescopeUI_autogen/mocs_compilation.cpp",
+  "file": "/home/user/telescope_bishe/build/TelescopeUI_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/user/telescope_bishe/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/user/telescope_bishe/build/TelescopeUI_autogen/include -I/home/user/telescope_bishe/build -I/home/user/telescope_bishe -I/usr/include/libindi -isystem /usr/include/aarch64-linux-gnu/qt5 -isystem /usr/include/aarch64-linux-gnu/qt5/QtWidgets -isystem /usr/include/aarch64-linux-gnu/qt5/QtGui -isystem /usr/include/aarch64-linux-gnu/qt5/QtCore -isystem /usr/lib/aarch64-linux-gnu/qt5/mkspecs/linux-g++  -D_FORTIFY_SOURCE=2 -Wa,--noexecstack  -Wall -Wextra -Wno-format-truncation -g -g -fPIE -fPIC -std=gnu++11 -o CMakeFiles/TelescopeUI.dir/main.cpp.o -c /home/user/telescope_bishe/main.cpp",
+  "file": "/home/user/telescope_bishe/main.cpp"
+},
+{
+  "directory": "/home/user/telescope_bishe/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/user/telescope_bishe/build/TelescopeUI_autogen/include -I/home/user/telescope_bishe/build -I/home/user/telescope_bishe -I/usr/include/libindi -isystem /usr/include/aarch64-linux-gnu/qt5 -isystem /usr/include/aarch64-linux-gnu/qt5/QtWidgets -isystem /usr/include/aarch64-linux-gnu/qt5/QtGui -isystem /usr/include/aarch64-linux-gnu/qt5/QtCore -isystem /usr/lib/aarch64-linux-gnu/qt5/mkspecs/linux-g++  -D_FORTIFY_SOURCE=2 -Wa,--noexecstack  -Wall -Wextra -Wno-format-truncation -g -g -fPIE -fPIC -std=gnu++11 -o CMakeFiles/TelescopeUI.dir/form.cpp.o -c /home/user/telescope_bishe/form.cpp",
+  "file": "/home/user/telescope_bishe/form.cpp"
+}
+]
