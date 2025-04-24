@@ -1,0 +1,9 @@
+/home/user/telescope_bishe/build/CMakeFiles/indi_mycustomdriver.dir
+/home/user/telescope_bishe/build/CMakeFiles/TelescopeUI.dir
+/home/user/telescope_bishe/build/CMakeFiles/edit_cache.dir
+/home/user/telescope_bishe/build/CMakeFiles/rebuild_cache.dir
+/home/user/telescope_bishe/build/CMakeFiles/list_install_components.dir
+/home/user/telescope_bishe/build/CMakeFiles/install.dir
+/home/user/telescope_bishe/build/CMakeFiles/install/local.dir
+/home/user/telescope_bishe/build/CMakeFiles/install/strip.dir
+/home/user/telescope_bishe/build/CMakeFiles/TelescopeUI_autogen.dir
