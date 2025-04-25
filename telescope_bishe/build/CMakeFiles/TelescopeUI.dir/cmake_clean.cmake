@@ -4,10 +4,8 @@ file(REMOVE_RECURSE
   "TelescopeUI_autogen"
   "CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.o.d"
-  "CMakeFiles/TelescopeUI.dir/form.cpp.o"
-  "CMakeFiles/TelescopeUI.dir/form.cpp.o.d"
-  "CMakeFiles/TelescopeUI.dir/main.cpp.o"
-  "CMakeFiles/TelescopeUI.dir/main.cpp.o.d"
+  "CMakeFiles/TelescopeUI.dir/form1.cpp.o"
+  "CMakeFiles/TelescopeUI.dir/form1.cpp.o.d"
   "TelescopeUI"
   "TelescopeUI.pdb"
 )

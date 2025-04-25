@@ -1,0 +1,23 @@
+In file included from /home/user/telescope_bishe/form1.cpp:6:
+/home/user/telescope_bishe/build/TelescopeUI_autogen/include/form1.moc: In static member function ‘static void Form::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)’:
+/home/user/telescope_bishe/build/TelescopeUI_autogen/include/form1.moc:76:21: error: ‘class Form’ has no member named ‘addball’
+   76 |         case 0: _t->addball(); break;
+      |                     ^~~~~~~
+/home/user/telescope_bishe/build/TelescopeUI_autogen/include/form1.moc:77:21: error: ‘class Form’ has no member named ‘deleteball’
+   77 |         case 1: _t->deleteball(); break;
+      |                     ^~~~~~~~~~
+/home/user/telescope_bishe/build/TelescopeUI_autogen/include/form1.moc:78:21: error: ‘class Form’ has no member named ‘Star’; did you mean ‘tr’?
+   78 |         case 2: _t->Star(); break;
+      |                     ^~~~
+      |                     tr
+/home/user/telescope_bishe/form1.cpp: At global scope:
+/home/user/telescope_bishe/form1.cpp:8:7: error: redefinition of ‘class Form’
+    8 | class Form : public QWidget{
+      |       ^~~~
+In file included from /home/user/telescope_bishe/form1.cpp:1:
+/home/user/telescope_bishe/form1.h:12:7: note: previous definition of ‘class Form’
+   12 | class Form : public QWidget
+      |       ^~~~
+make[2]: *** [CMakeFiles/TelescopeUI.dir/build.make:90：CMakeFiles/TelescopeUI.dir/form1.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:112：CMakeFiles/TelescopeUI.dir/all] 错误 2
+make: *** [Makefile:136：all] 错误 2

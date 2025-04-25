@@ -38,37 +38,11 @@
     <attribute name="title">
      <string>主页</string>
     </attribute>
-    <widget class="QPushButton" name="HButton_Server">
-     <property name="geometry">
-      <rect>
-       <x>190</x>
-       <y>300</y>
-       <width>221</width>
-       <height>61</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>连接Indi服务器</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="HButton_Server_dis">
-     <property name="geometry">
-      <rect>
-       <x>480</x>
-       <y>300</y>
-       <width>221</width>
-       <height>61</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>断开Indi服务器</string>
-     </property>
-    </widget>
     <widget class="QWidget" name="verticalLayoutWidget_4">
      <property name="geometry">
       <rect>
-       <x>290</x>
-       <y>70</y>
+       <x>210</x>
+       <y>30</y>
        <width>361</width>
        <height>81</height>
       </rect>
@@ -77,9 +51,9 @@
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_ChiW_2">
         <item>
-         <widget class="QPushButton" name="SButton_RA">
+         <widget class="QPushButton" name="Button_RA">
           <property name="text">
-           <string>设置赤纬</string>
+           <string>赤纬</string>
           </property>
          </widget>
         </item>
@@ -95,9 +69,9 @@
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_ChiJ_2">
         <item>
-         <widget class="QPushButton" name="SButton_DEC">
+         <widget class="QPushButton" name="Button_DEC">
           <property name="text">
-           <string>设置赤经</string>
+           <string>赤经</string>
           </property>
          </widget>
         </item>
@@ -112,65 +86,13 @@
       </item>
      </layout>
     </widget>
-    <widget class="QLabel" name="statu_Qlabel">
-     <property name="geometry">
-      <rect>
-       <x>420</x>
-       <y>250</y>
-       <width>91</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>未连接</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="GotoButton">
-     <property name="geometry">
-      <rect>
-       <x>390</x>
-       <y>190</y>
-       <width>131</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>GOTO</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="statu_RA_label">
-     <property name="geometry">
-      <rect>
-       <x>660</x>
-       <y>70</y>
-       <width>51</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>未设置</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="statu_DEC_label">
-     <property name="geometry">
-      <rect>
-       <x>660</x>
-       <y>120</y>
-       <width>61</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>未设置</string>
-     </property>
-    </widget>
     <widget class="QListWidget" name="Star_database">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>10</y>
-       <width>241</width>
-       <height>261</height>
+       <x>30</x>
+       <y>130</y>
+       <width>291</width>
+       <height>301</height>
       </rect>
      </property>
      <item>
@@ -199,28 +121,93 @@
       </property>
      </item>
     </widget>
-    <widget class="QScrollArea" name="scrollArea">
+    <widget class="QPushButton" name="addball_button">
      <property name="geometry">
       <rect>
-       <x>60</x>
-       <y>390</y>
-       <width>641</width>
-       <height>81</height>
+       <x>360</x>
+       <y>340</y>
+       <width>121</width>
+       <height>41</height>
       </rect>
      </property>
-     <property name="widgetResizable">
-      <bool>true</bool>
+     <property name="text">
+      <string>添加</string>
      </property>
-     <widget class="QWidget" name="scrollAreaWidgetContents">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>0</y>
-        <width>639</width>
-        <height>79</height>
-       </rect>
-      </property>
-     </widget>
+    </widget>
+    <widget class="QPushButton" name="deleteball_button">
+     <property name="geometry">
+      <rect>
+       <x>550</x>
+       <y>340</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>删除</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget_5">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>200</y>
+       <width>361</width>
+       <height>116</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_5">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QPushButton" name="addballname">
+          <property name="text">
+           <string>星体名称</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="addlineEdit_ballname"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_ChiW_3">
+        <item>
+         <widget class="QPushButton" name="addball_RA">
+          <property name="text">
+           <string>赤纬</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="addLineEdit_RA">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_ChiJ_3">
+        <item>
+         <widget class="QPushButton" name="addball_DEC">
+          <property name="text">
+           <string>赤经</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="addLineEdit_DEC">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
     </widget>
    </widget>
    <widget class="QWidget" name="record">

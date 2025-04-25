@@ -224,29 +224,29 @@ TelescopeUI_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TelescopeUI.dir/build.make CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.s
 .PHONY : TelescopeUI_autogen/mocs_compilation.cpp.s
 
-form.o: form.cpp.o
-.PHONY : form.o
+form1.o: form1.cpp.o
+.PHONY : form1.o
 
 # target to build an object file
-form.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TelescopeUI.dir/build.make CMakeFiles/TelescopeUI.dir/form.cpp.o
-.PHONY : form.cpp.o
+form1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TelescopeUI.dir/build.make CMakeFiles/TelescopeUI.dir/form1.cpp.o
+.PHONY : form1.cpp.o
 
-form.i: form.cpp.i
-.PHONY : form.i
+form1.i: form1.cpp.i
+.PHONY : form1.i
 
 # target to preprocess a source file
-form.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TelescopeUI.dir/build.make CMakeFiles/TelescopeUI.dir/form.cpp.i
-.PHONY : form.cpp.i
+form1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TelescopeUI.dir/build.make CMakeFiles/TelescopeUI.dir/form1.cpp.i
+.PHONY : form1.cpp.i
 
-form.s: form.cpp.s
-.PHONY : form.s
+form1.s: form1.cpp.s
+.PHONY : form1.s
 
 # target to generate assembly for a file
-form.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TelescopeUI.dir/build.make CMakeFiles/TelescopeUI.dir/form.cpp.s
-.PHONY : form.cpp.s
+form1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TelescopeUI.dir/build.make CMakeFiles/TelescopeUI.dir/form1.cpp.s
+.PHONY : form1.cpp.s
 
 indi_mycustomdriver.o: indi_mycustomdriver.cpp.o
 .PHONY : indi_mycustomdriver.o
@@ -272,30 +272,6 @@ indi_mycustomdriver.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/indi_mycustomdriver.dir/build.make CMakeFiles/indi_mycustomdriver.dir/indi_mycustomdriver.cpp.s
 .PHONY : indi_mycustomdriver.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TelescopeUI.dir/build.make CMakeFiles/TelescopeUI.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TelescopeUI.dir/build.make CMakeFiles/TelescopeUI.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TelescopeUI.dir/build.make CMakeFiles/TelescopeUI.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -314,15 +290,12 @@ help:
 	@echo "... TelescopeUI_autogen/mocs_compilation.o"
 	@echo "... TelescopeUI_autogen/mocs_compilation.i"
 	@echo "... TelescopeUI_autogen/mocs_compilation.s"
-	@echo "... form.o"
-	@echo "... form.i"
-	@echo "... form.s"
+	@echo "... form1.o"
+	@echo "... form1.i"
+	@echo "... form1.s"
 	@echo "... indi_mycustomdriver.o"
 	@echo "... indi_mycustomdriver.i"
 	@echo "... indi_mycustomdriver.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 .PHONY : help
 
 
