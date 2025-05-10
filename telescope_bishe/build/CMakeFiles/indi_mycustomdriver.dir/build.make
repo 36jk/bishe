@@ -73,15 +73,15 @@ CMakeFiles/indi_mycustomdriver.dir/indi_mycustomdriver.cpp.o: CMakeFiles/indi_my
 CMakeFiles/indi_mycustomdriver.dir/indi_mycustomdriver.cpp.o: /home/user/telescope_bishe/indi_mycustomdriver.cpp
 CMakeFiles/indi_mycustomdriver.dir/indi_mycustomdriver.cpp.o: CMakeFiles/indi_mycustomdriver.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/telescope_bishe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/indi_mycustomdriver.dir/indi_mycustomdriver.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/indi_mycustomdriver.dir/indi_mycustomdriver.cpp.o -MF CMakeFiles/indi_mycustomdriver.dir/indi_mycustomdriver.cpp.o.d -o CMakeFiles/indi_mycustomdriver.dir/indi_mycustomdriver.cpp.o -c /home/user/telescope_bishe/indi_mycustomdriver.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/indi_mycustomdriver.dir/indi_mycustomdriver.cpp.o -MF CMakeFiles/indi_mycustomdriver.dir/indi_mycustomdriver.cpp.o.d -o CMakeFiles/indi_mycustomdriver.dir/indi_mycustomdriver.cpp.o -c /home/user/telescope_bishe/indi_mycustomdriver.cpp
 
 CMakeFiles/indi_mycustomdriver.dir/indi_mycustomdriver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indi_mycustomdriver.dir/indi_mycustomdriver.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/telescope_bishe/indi_mycustomdriver.cpp > CMakeFiles/indi_mycustomdriver.dir/indi_mycustomdriver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/telescope_bishe/indi_mycustomdriver.cpp > CMakeFiles/indi_mycustomdriver.dir/indi_mycustomdriver.cpp.i
 
 CMakeFiles/indi_mycustomdriver.dir/indi_mycustomdriver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indi_mycustomdriver.dir/indi_mycustomdriver.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/telescope_bishe/indi_mycustomdriver.cpp -o CMakeFiles/indi_mycustomdriver.dir/indi_mycustomdriver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/telescope_bishe/indi_mycustomdriver.cpp -o CMakeFiles/indi_mycustomdriver.dir/indi_mycustomdriver.cpp.s
 
 # Object files for target indi_mycustomdriver
 indi_mycustomdriver_OBJECTS = \

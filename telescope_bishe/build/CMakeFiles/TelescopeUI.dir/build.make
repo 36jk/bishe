@@ -73,62 +73,46 @@ CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.o: CMakeFile
 CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.o: TelescopeUI_autogen/mocs_compilation.cpp
 CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.o: CMakeFiles/TelescopeUI.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/telescope_bishe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.o -MF CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.o -c /home/user/telescope_bishe/build/TelescopeUI_autogen/mocs_compilation.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.o -MF CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.o -c /home/user/telescope_bishe/build/TelescopeUI_autogen/mocs_compilation.cpp
 
 CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/telescope_bishe/build/TelescopeUI_autogen/mocs_compilation.cpp > CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/telescope_bishe/build/TelescopeUI_autogen/mocs_compilation.cpp > CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/telescope_bishe/build/TelescopeUI_autogen/mocs_compilation.cpp -o CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/telescope_bishe/build/TelescopeUI_autogen/mocs_compilation.cpp -o CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/TelescopeUI.dir/main.cpp.o: CMakeFiles/TelescopeUI.dir/flags.make
-CMakeFiles/TelescopeUI.dir/main.cpp.o: /home/user/telescope_bishe/main.cpp
-CMakeFiles/TelescopeUI.dir/main.cpp.o: CMakeFiles/TelescopeUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/telescope_bishe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TelescopeUI.dir/main.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TelescopeUI.dir/main.cpp.o -MF CMakeFiles/TelescopeUI.dir/main.cpp.o.d -o CMakeFiles/TelescopeUI.dir/main.cpp.o -c /home/user/telescope_bishe/main.cpp
+CMakeFiles/TelescopeUI.dir/form1.cpp.o: CMakeFiles/TelescopeUI.dir/flags.make
+CMakeFiles/TelescopeUI.dir/form1.cpp.o: /home/user/telescope_bishe/form1.cpp
+CMakeFiles/TelescopeUI.dir/form1.cpp.o: CMakeFiles/TelescopeUI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/telescope_bishe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TelescopeUI.dir/form1.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TelescopeUI.dir/form1.cpp.o -MF CMakeFiles/TelescopeUI.dir/form1.cpp.o.d -o CMakeFiles/TelescopeUI.dir/form1.cpp.o -c /home/user/telescope_bishe/form1.cpp
 
-CMakeFiles/TelescopeUI.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TelescopeUI.dir/main.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/telescope_bishe/main.cpp > CMakeFiles/TelescopeUI.dir/main.cpp.i
+CMakeFiles/TelescopeUI.dir/form1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TelescopeUI.dir/form1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/telescope_bishe/form1.cpp > CMakeFiles/TelescopeUI.dir/form1.cpp.i
 
-CMakeFiles/TelescopeUI.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TelescopeUI.dir/main.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/telescope_bishe/main.cpp -o CMakeFiles/TelescopeUI.dir/main.cpp.s
-
-CMakeFiles/TelescopeUI.dir/form.cpp.o: CMakeFiles/TelescopeUI.dir/flags.make
-CMakeFiles/TelescopeUI.dir/form.cpp.o: /home/user/telescope_bishe/form.cpp
-CMakeFiles/TelescopeUI.dir/form.cpp.o: CMakeFiles/TelescopeUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/telescope_bishe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TelescopeUI.dir/form.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TelescopeUI.dir/form.cpp.o -MF CMakeFiles/TelescopeUI.dir/form.cpp.o.d -o CMakeFiles/TelescopeUI.dir/form.cpp.o -c /home/user/telescope_bishe/form.cpp
-
-CMakeFiles/TelescopeUI.dir/form.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TelescopeUI.dir/form.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/telescope_bishe/form.cpp > CMakeFiles/TelescopeUI.dir/form.cpp.i
-
-CMakeFiles/TelescopeUI.dir/form.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TelescopeUI.dir/form.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/telescope_bishe/form.cpp -o CMakeFiles/TelescopeUI.dir/form.cpp.s
+CMakeFiles/TelescopeUI.dir/form1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TelescopeUI.dir/form1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/telescope_bishe/form1.cpp -o CMakeFiles/TelescopeUI.dir/form1.cpp.s
 
 # Object files for target TelescopeUI
 TelescopeUI_OBJECTS = \
 "CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/TelescopeUI.dir/main.cpp.o" \
-"CMakeFiles/TelescopeUI.dir/form.cpp.o"
+"CMakeFiles/TelescopeUI.dir/form1.cpp.o"
 
 # External object files for target TelescopeUI
 TelescopeUI_EXTERNAL_OBJECTS =
 
 TelescopeUI: CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.o
-TelescopeUI: CMakeFiles/TelescopeUI.dir/main.cpp.o
-TelescopeUI: CMakeFiles/TelescopeUI.dir/form.cpp.o
+TelescopeUI: CMakeFiles/TelescopeUI.dir/form1.cpp.o
 TelescopeUI: CMakeFiles/TelescopeUI.dir/build.make
 TelescopeUI: /usr/lib/aarch64-linux-gnu/libQt5Widgets.so.5.12.8
 TelescopeUI: /usr/lib/aarch64-linux-gnu/libQt5Gui.so.5.12.8
 TelescopeUI: /usr/lib/aarch64-linux-gnu/libQt5Core.so.5.12.8
 TelescopeUI: CMakeFiles/TelescopeUI.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/telescope_bishe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable TelescopeUI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/telescope_bishe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable TelescopeUI"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TelescopeUI.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

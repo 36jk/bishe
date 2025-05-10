@@ -1,8 +1,6 @@
-CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.o: \
- /home/user/telescope_bishe/build/TelescopeUI_autogen/mocs_compilation.cpp \
- /usr/include/stdc-predef.h \
- /home/user/telescope_bishe/build/TelescopeUI_autogen/EWIEGA46WW/moc_form1.cpp \
- /home/user/telescope_bishe/build/TelescopeUI_autogen/EWIEGA46WW/../../../form1.h \
+CMakeFiles/TelescopeUI.dir/form1.cpp.o: \
+ /home/user/telescope_bishe/form1.cpp /usr/include/stdc-predef.h \
+ /home/user/telescope_bishe/form1.h \
  /usr/include/aarch64-linux-gnu/qt5/QtWidgets/QWidget \
  /usr/include/aarch64-linux-gnu/qt5/QtWidgets/qwidget.h \
  /usr/include/aarch64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -257,7 +255,7 @@ CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.o: \
  /usr/include/aarch64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
  /usr/include/aarch64-linux-gnu/qt5/QtGui/qcursor.h \
  /usr/include/aarch64-linux-gnu/qt5/QtGui/qkeysequence.h \
- /home/user/telescope_bishe/build/TelescopeUI_autogen/EWIEGA46WW/../../../ui_Telescope.h \
+ /home/user/telescope_bishe/ui_Telescope.h \
  /usr/include/aarch64-linux-gnu/qt5/QtCore/QVariant \
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qvariant.h \
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qmap.h \
@@ -320,4 +318,8 @@ CMakeFiles/TelescopeUI.dir/TelescopeUI_autogen/mocs_compilation.cpp.o: \
  /usr/include/aarch64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
  /usr/include/aarch64-linux-gnu/qt5/QtWidgets/QWidget \
  /usr/include/aarch64-linux-gnu/qt5/QtCore/QProcess \
- /usr/include/aarch64-linux-gnu/qt5/QtCore/qprocess.h
+ /usr/include/aarch64-linux-gnu/qt5/QtCore/qprocess.h \
+ /usr/include/aarch64-linux-gnu/qt5/QtCore/QString \
+ /usr/include/aarch64-linux-gnu/qt5/QtCore/qstring.h \
+ /usr/include/aarch64-linux-gnu/qt5/QtWidgets/QLineEdit \
+ /home/user/telescope_bishe/build/TelescopeUI_autogen/include/form1.moc

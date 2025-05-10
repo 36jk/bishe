@@ -76,9 +76,8 @@ set(CMAKE_AUTOUIC ON)
 find_package(Qt5 REQUIRED COMPONENTS Widgets)
 
 add_executable(${PROJECT_NAME}
-    main.cpp
-    form.cpp
-    form.h
+    form1.cpp
+    form1.h
     ui_Telescope.h
 )
 

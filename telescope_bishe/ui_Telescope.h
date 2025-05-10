@@ -16,7 +16,6 @@
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QListWidget>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QScrollArea>
 #include <QtWidgets/QTabWidget>
 #include <QtWidgets/QTextEdit>
 #include <QtWidgets/QVBoxLayout>
@@ -29,23 +28,28 @@ class Ui_Form
 public:
     QTabWidget *SButton_JingD;
     QWidget *home;
-    QPushButton *HButton_Server;
-    QPushButton *HButton_Server_dis;
     QWidget *verticalLayoutWidget_4;
     QVBoxLayout *verticalLayout_4;
     QHBoxLayout *horizontalLayout_ChiW_2;
-    QPushButton *SButton_RA;
+    QPushButton *Button_RA;
     QLineEdit *SLineEdit_RA;
     QHBoxLayout *horizontalLayout_ChiJ_2;
-    QPushButton *SButton_DEC;
+    QPushButton *Button_DEC;
     QLineEdit *SLineEdit_DEC;
-    QLabel *statu_Qlabel;
-    QPushButton *GotoButton;
-    QLabel *statu_RA_label;
-    QLabel *statu_DEC_label;
     QListWidget *Star_database;
-    QScrollArea *scrollArea;
-    QWidget *scrollAreaWidgetContents;
+    QPushButton *addball_button;
+    QPushButton *deleteball_button;
+    QWidget *verticalLayoutWidget_5;
+    QVBoxLayout *verticalLayout_5;
+    QHBoxLayout *horizontalLayout;
+    QPushButton *addballname;
+    QLineEdit *addlineEdit_ballname;
+    QHBoxLayout *horizontalLayout_ChiW_3;
+    QPushButton *addball_RA;
+    QLineEdit *addLineEdit_RA;
+    QHBoxLayout *horizontalLayout_ChiJ_3;
+    QPushButton *addball_DEC;
+    QLineEdit *addLineEdit_DEC;
     QWidget *record;
     QTextEdit *Record_TextEdit;
     QPushButton *Record_SelectPic;
@@ -69,24 +73,18 @@ public:
         SButton_JingD->setTabPosition(QTabWidget::North);
         home = new QWidget();
         home->setObjectName(QString::fromUtf8("home"));
-        HButton_Server = new QPushButton(home);
-        HButton_Server->setObjectName(QString::fromUtf8("HButton_Server"));
-        HButton_Server->setGeometry(QRect(190, 300, 221, 61));
-        HButton_Server_dis = new QPushButton(home);
-        HButton_Server_dis->setObjectName(QString::fromUtf8("HButton_Server_dis"));
-        HButton_Server_dis->setGeometry(QRect(480, 300, 221, 61));
         verticalLayoutWidget_4 = new QWidget(home);
         verticalLayoutWidget_4->setObjectName(QString::fromUtf8("verticalLayoutWidget_4"));
-        verticalLayoutWidget_4->setGeometry(QRect(290, 70, 361, 81));
+        verticalLayoutWidget_4->setGeometry(QRect(210, 30, 361, 81));
         verticalLayout_4 = new QVBoxLayout(verticalLayoutWidget_4);
         verticalLayout_4->setObjectName(QString::fromUtf8("verticalLayout_4"));
         verticalLayout_4->setContentsMargins(0, 0, 0, 0);
         horizontalLayout_ChiW_2 = new QHBoxLayout();
         horizontalLayout_ChiW_2->setObjectName(QString::fromUtf8("horizontalLayout_ChiW_2"));
-        SButton_RA = new QPushButton(verticalLayoutWidget_4);
-        SButton_RA->setObjectName(QString::fromUtf8("SButton_RA"));
+        Button_RA = new QPushButton(verticalLayoutWidget_4);
+        Button_RA->setObjectName(QString::fromUtf8("Button_RA"));
 
-        horizontalLayout_ChiW_2->addWidget(SButton_RA);
+        horizontalLayout_ChiW_2->addWidget(Button_RA);
 
         SLineEdit_RA = new QLineEdit(verticalLayoutWidget_4);
         SLineEdit_RA->setObjectName(QString::fromUtf8("SLineEdit_RA"));
@@ -98,10 +96,10 @@ public:
 
         horizontalLayout_ChiJ_2 = new QHBoxLayout();
         horizontalLayout_ChiJ_2->setObjectName(QString::fromUtf8("horizontalLayout_ChiJ_2"));
-        SButton_DEC = new QPushButton(verticalLayoutWidget_4);
-        SButton_DEC->setObjectName(QString::fromUtf8("SButton_DEC"));
+        Button_DEC = new QPushButton(verticalLayoutWidget_4);
+        Button_DEC->setObjectName(QString::fromUtf8("Button_DEC"));
 
-        horizontalLayout_ChiJ_2->addWidget(SButton_DEC);
+        horizontalLayout_ChiJ_2->addWidget(Button_DEC);
 
         SLineEdit_DEC = new QLineEdit(verticalLayoutWidget_4);
         SLineEdit_DEC->setObjectName(QString::fromUtf8("SLineEdit_DEC"));
@@ -111,18 +109,6 @@ public:
 
         verticalLayout_4->addLayout(horizontalLayout_ChiJ_2);
 
-        statu_Qlabel = new QLabel(home);
-        statu_Qlabel->setObjectName(QString::fromUtf8("statu_Qlabel"));
-        statu_Qlabel->setGeometry(QRect(420, 250, 51, 31));
-        GotoButton = new QPushButton(home);
-        GotoButton->setObjectName(QString::fromUtf8("GotoButton"));
-        GotoButton->setGeometry(QRect(390, 190, 131, 41));
-        statu_RA_label = new QLabel(home);
-        statu_RA_label->setObjectName(QString::fromUtf8("statu_RA_label"));
-        statu_RA_label->setGeometry(QRect(660, 70, 51, 31));
-        statu_DEC_label = new QLabel(home);
-        statu_DEC_label->setObjectName(QString::fromUtf8("statu_DEC_label"));
-        statu_DEC_label->setGeometry(QRect(660, 120, 61, 31));
         Star_database = new QListWidget(home);
         new QListWidgetItem(Star_database);
         new QListWidgetItem(Star_database);
@@ -130,15 +116,64 @@ public:
         new QListWidgetItem(Star_database);
         new QListWidgetItem(Star_database);
         Star_database->setObjectName(QString::fromUtf8("Star_database"));
-        Star_database->setGeometry(QRect(10, 10, 241, 261));
-        scrollArea = new QScrollArea(home);
-        scrollArea->setObjectName(QString::fromUtf8("scrollArea"));
-        scrollArea->setGeometry(QRect(60, 390, 641, 81));
-        scrollArea->setWidgetResizable(true);
-        scrollAreaWidgetContents = new QWidget();
-        scrollAreaWidgetContents->setObjectName(QString::fromUtf8("scrollAreaWidgetContents"));
-        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 639, 79));
-        scrollArea->setWidget(scrollAreaWidgetContents);
+        Star_database->setGeometry(QRect(30, 130, 291, 301));
+        addball_button = new QPushButton(home);
+        addball_button->setObjectName(QString::fromUtf8("addball_button"));
+        addball_button->setGeometry(QRect(360, 340, 121, 41));
+        deleteball_button = new QPushButton(home);
+        deleteball_button->setObjectName(QString::fromUtf8("deleteball_button"));
+        deleteball_button->setGeometry(QRect(550, 340, 121, 41));
+        verticalLayoutWidget_5 = new QWidget(home);
+        verticalLayoutWidget_5->setObjectName(QString::fromUtf8("verticalLayoutWidget_5"));
+        verticalLayoutWidget_5->setGeometry(QRect(360, 200, 361, 116));
+        verticalLayout_5 = new QVBoxLayout(verticalLayoutWidget_5);
+        verticalLayout_5->setObjectName(QString::fromUtf8("verticalLayout_5"));
+        verticalLayout_5->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout = new QHBoxLayout();
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        addballname = new QPushButton(verticalLayoutWidget_5);
+        addballname->setObjectName(QString::fromUtf8("addballname"));
+
+        horizontalLayout->addWidget(addballname);
+
+        addlineEdit_ballname = new QLineEdit(verticalLayoutWidget_5);
+        addlineEdit_ballname->setObjectName(QString::fromUtf8("addlineEdit_ballname"));
+
+        horizontalLayout->addWidget(addlineEdit_ballname);
+
+
+        verticalLayout_5->addLayout(horizontalLayout);
+
+        horizontalLayout_ChiW_3 = new QHBoxLayout();
+        horizontalLayout_ChiW_3->setObjectName(QString::fromUtf8("horizontalLayout_ChiW_3"));
+        addball_RA = new QPushButton(verticalLayoutWidget_5);
+        addball_RA->setObjectName(QString::fromUtf8("addball_RA"));
+
+        horizontalLayout_ChiW_3->addWidget(addball_RA);
+
+        addLineEdit_RA = new QLineEdit(verticalLayoutWidget_5);
+        addLineEdit_RA->setObjectName(QString::fromUtf8("addLineEdit_RA"));
+
+        horizontalLayout_ChiW_3->addWidget(addLineEdit_RA);
+
+
+        verticalLayout_5->addLayout(horizontalLayout_ChiW_3);
+
+        horizontalLayout_ChiJ_3 = new QHBoxLayout();
+        horizontalLayout_ChiJ_3->setObjectName(QString::fromUtf8("horizontalLayout_ChiJ_3"));
+        addball_DEC = new QPushButton(verticalLayoutWidget_5);
+        addball_DEC->setObjectName(QString::fromUtf8("addball_DEC"));
+
+        horizontalLayout_ChiJ_3->addWidget(addball_DEC);
+
+        addLineEdit_DEC = new QLineEdit(verticalLayoutWidget_5);
+        addLineEdit_DEC->setObjectName(QString::fromUtf8("addLineEdit_DEC"));
+
+        horizontalLayout_ChiJ_3->addWidget(addLineEdit_DEC);
+
+
+        verticalLayout_5->addLayout(horizontalLayout_ChiJ_3);
+
         SButton_JingD->addTab(home, QString());
         record = new QWidget();
         record->setObjectName(QString::fromUtf8("record"));
@@ -170,16 +205,10 @@ public:
     void retranslateUi(QWidget *Form)
     {
         Form->setWindowTitle(QApplication::translate("Form", "\345\257\273\346\230\237\347\263\273\347\273\237", nullptr));
-        HButton_Server->setText(QApplication::translate("Form", "\350\277\236\346\216\245Indi\346\234\215\345\212\241\345\231\250", nullptr));
-        HButton_Server_dis->setText(QApplication::translate("Form", "\346\226\255\345\274\200Indi\346\234\215\345\212\241\345\231\250", nullptr));
-        SButton_RA->setText(QApplication::translate("Form", "\350\256\276\347\275\256\350\265\244\347\272\254", nullptr));
+        Button_RA->setText(QApplication::translate("Form", "\350\265\244\347\272\254", nullptr));
         SLineEdit_RA->setText(QString());
-        SButton_DEC->setText(QApplication::translate("Form", "\350\256\276\347\275\256\350\265\244\347\273\217", nullptr));
+        Button_DEC->setText(QApplication::translate("Form", "\350\265\244\347\273\217", nullptr));
         SLineEdit_DEC->setText(QString());
-        statu_Qlabel->setText(QApplication::translate("Form", "\346\234\252\350\277\236\346\216\245", nullptr));
-        GotoButton->setText(QApplication::translate("Form", "GOTO", nullptr));
-        statu_RA_label->setText(QApplication::translate("Form", "\346\234\252\350\256\276\347\275\256", nullptr));
-        statu_DEC_label->setText(QApplication::translate("Form", "\346\234\252\350\256\276\347\275\256", nullptr));
 
         const bool __sortingEnabled = Star_database->isSortingEnabled();
         Star_database->setSortingEnabled(false);
@@ -195,6 +224,13 @@ public:
         ___qlistwidgetitem4->setText(QApplication::translate("Form", "\345\214\227\346\236\201\346\230\237", nullptr));
         Star_database->setSortingEnabled(__sortingEnabled);
 
+        addball_button->setText(QApplication::translate("Form", "\346\267\273\345\212\240", nullptr));
+        deleteball_button->setText(QApplication::translate("Form", "\345\210\240\351\231\244", nullptr));
+        addballname->setText(QApplication::translate("Form", "\346\230\237\344\275\223\345\220\215\347\247\260", nullptr));
+        addball_RA->setText(QApplication::translate("Form", "\350\265\244\347\272\254", nullptr));
+        addLineEdit_RA->setText(QString());
+        addball_DEC->setText(QApplication::translate("Form", "\350\265\244\347\273\217", nullptr));
+        addLineEdit_DEC->setText(QString());
         SButton_JingD->setTabText(SButton_JingD->indexOf(home), QApplication::translate("Form", "\344\270\273\351\241\265", nullptr));
         Record_SelectPic->setText(QApplication::translate("Form", "\351\200\211\346\213\251\345\233\276\347\211\207", nullptr));
         Record_Send->setText(QApplication::translate("Form", "\344\277\235\345\255\230", nullptr));

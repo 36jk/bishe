@@ -1,8 +1,9 @@
-#include "form.h"
+#include "form1.h"
 #include "ui_Telescope.h"
 #include <QProcess>
 #include <QString>
 #include <QLineEdit>
+#include "form1.moc"
 
 class Form : public QWidget{
 
@@ -18,24 +19,24 @@ class Form : public QWidget{
     }
     ~Form(){}
 
-private slots:
-    void addball(){
-        QString ballname = ui->addlineEdit_ballname->text();
-        QString ball_RA = ui->addLineEdit_RA->text();
-        QString ball_DEC = ui->addLineEdit_DEC->text();
+    private slots:
+        void addball(){
+            QString ballname = ui->addlineEdit_ballname->text();
+            QString ball_RA = ui->addLineEdit_RA->text();
+            QString ball_DEC = ui->addLineEdit_DEC->text();
 
-        if(addballname.isEmpty() || addball_DEC.isEmpty() || addball_RA.isEmpty()){
-            QMessageBox::warning(this, "输入不能为空","星球名称、RA、DEC不可为空");
-            return;
+            if(addballname.isEmpty() || addball_DEC.isEmpty() || addball_RA.isEmpty()){
+                QMessageBox::warning(this, "输入不能为空","星球名称、RA、DEC不可为空");
+                return;
+            }
+            QString ballinfo = ballname + ":" +ball_RA + "," + ball_DEC;
+            ui->Star_database->addItem(ballinfo);
+
+
+            ui->addlineEdit_ballname->clear();
+            ui->addLineEdit_DEC->clear();
+            ui->addLineEdit_RA->clear();
         }
-        QString ballinfo = ballname + ":" +ball_RA + "," + ball_DEC;
-        ui->Star_database->addItem(ballinfo);
-
-
-        ui->addlineEdit_ballname->clear();
-        ui->addLineEdit_DEC->clear();
-        ui->addLineEdit_RA->clear();
-    }
 
     void deleteball(){
         QListWidgetItem *selectedItem = ui->Star_database->currentItem();
@@ -57,8 +58,8 @@ private slots:
             }
         }
     }
-private:
-    Ui::Form ui;
+    private:
+        Ui::Form ui;
 };
 
 int main(int argc,char *argv[]){
